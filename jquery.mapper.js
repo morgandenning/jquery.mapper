@@ -52,7 +52,7 @@
 			
 			if (_browser.android) {
 				_href = 'http://maps.google.com/?saddr=Current%20Location&daddr=' + _href;
-			} else if (_browser.iphone) {
+			} else if (_browser.safari) {
 				_href = 'http://maps.apple.com/?saddr=current_location&daddr=' + _href;
 			} else if (_browser.mobile && _browser.userPlatform == 'windows phone') {
 				_href = 'maps:' + _href;
